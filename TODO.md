@@ -1,5 +1,7 @@
 
-## Todo
+## todo
+
+## done
 
 create ```index.php``` if not present then open shell, put
  
@@ -15,8 +17,6 @@ looks like ```https://8001-bronze-pike-1lbuk9fz.ws-us03.gitpod.io/```
 
 ```ctrl+c``` to exit.
 
-## Done
-
 ```shell
 
 php -v
@@ -27,5 +27,20 @@ service --help
 service --status-all
 service nginx stop # failed
 sudo service nginx stop
+whereis mysql
+sudo apt-get update
+sudo apt-get upgrade
+uname -a
 
 ```
+
+## googled
+
+- https://www.google.com/search?q=how+to+stop+nginx
+- https://www.google.com/search?q=how+to+install+laravel+in+ubuntu
+
+## found
+
+- https://notes.etin.space/posts/gitpodifying-a-new-laravel-application
+- https://www.hostinger.co.id/tutorial/install-laravel-di-ubuntu
+- https://www.howtoforge.com/tutorial/install-laravel-on-ubuntu-for-apache/
