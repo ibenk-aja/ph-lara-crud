@@ -1,6 +1,12 @@
 
 ## todo
 
+```
+cd myApp
+php artisan serve
+
+```
+
 ## done
 
 create ```index.php``` if not present then open shell, put
@@ -37,6 +43,7 @@ cd myApp
 php artisan serve
 #---
 git push --force
+
 ```
 
 ## googled

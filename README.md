@@ -5,3 +5,7 @@
 PHP Laravel database sample, simple CRUD operation.
 
 Whole project using gitpod.
+
+## reference
+
+https://ilmucoding.com/crud-laravel-8/
