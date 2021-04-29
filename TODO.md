@@ -35,7 +35,8 @@ uname -a
 composer create-project --prefer-dist laravel/laravel myApp
 cd myApp
 php artisan serve
-
+#---
+git push --force
 ```
 
 ## googled
