@@ -31,6 +31,10 @@ whereis mysql
 sudo apt-get update
 sudo apt-get upgrade
 uname -a
+#---
+composer create-project --prefer-dist laravel/laravel myApp
+cd myApp
+php artisan serve
 
 ```
 
@@ -44,3 +48,6 @@ uname -a
 - https://notes.etin.space/posts/gitpodifying-a-new-laravel-application
 - https://www.hostinger.co.id/tutorial/install-laravel-di-ubuntu
 - https://www.howtoforge.com/tutorial/install-laravel-on-ubuntu-for-apache/
+
+## tried
+- https://www.hostinger.co.id/tutorial/install-laravel-di-ubuntu#5-Install-Laravel-Ubuntu-dengan-Composer
