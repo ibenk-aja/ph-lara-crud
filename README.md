@@ -8,4 +8,5 @@ Whole project using gitpod.
 
 ## reference
 
-https://ilmucoding.com/crud-laravel-8/
+- https://www.mysqltutorial.org/
+- https://ilmucoding.com/crud-laravel-8/

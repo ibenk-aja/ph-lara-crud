@@ -41,6 +41,8 @@ uname -a
 composer create-project --prefer-dist laravel/laravel myApp
 cd myApp
 php artisan serve
+#added ! to unignore in .gitignmore '/vendor'
+sudo apt-get install mysql-server
 
 ```
 
