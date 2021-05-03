@@ -37,12 +37,10 @@ whereis mysql
 sudo apt-get update
 sudo apt-get upgrade
 uname -a
-#---
+#--- config
 composer create-project --prefer-dist laravel/laravel myApp
 cd myApp
 php artisan serve
-#---
-git push --force
 
 ```
 
@@ -58,4 +56,14 @@ git push --force
 - https://www.howtoforge.com/tutorial/install-laravel-on-ubuntu-for-apache/
 
 ## tried
+
 - https://www.hostinger.co.id/tutorial/install-laravel-di-ubuntu#5-Install-Laravel-Ubuntu-dengan-Composer
+
+## fix config
+
+```
+git push --force # pass but already fixed using app permition to read or something
+composer self-update --2 # failed
+add ! to unignore in .gitignmore '/vendor'
+
+```
